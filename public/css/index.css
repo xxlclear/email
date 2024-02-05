@@ -1,0 +1,51 @@
+.box {
+   width: 300px;
+   height: 300px;
+   margin: 100px auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+.box {
+   display: flex;
+   align-items: center;
+}
+
+input {
+   font-size: 18px;
+   font-weight: 700;
+   width: 200px;
+   height: 40px;
+   text-align: center;
+   border-radius: 10px;
+}
+
+button {
+   height: 30px;
+   font-size: 18px;
+   font-weight: 700;
+   text-align: center;
+   border-radius: 10px;
+   background-color: #fff;
+   color: black;
+
+}
+
+li {
+   list-style: none;
+   margin-right: 10px;
+}
+
+ul {
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+}
+
+button:hover {
+   cursor: pointer;
+   background-color: black;
+   color: #fff;
+}
